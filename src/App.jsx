@@ -4,7 +4,7 @@ import './App.css'
 // import { UserName } from './components/UserName/UserName';
 // import { MyButton } from './components/MyButton';
 // import { UserName } from './components/UserName';
-import { MyButton, UserName, isLoggedIn, LoginStatus } from './components'
+import { MyButton, UserName, isLoggedIn, LoginStatus, ProductList } from './components'
 
 function App() {
   // return (
@@ -27,6 +27,9 @@ function App() {
     {/* <p>{isLoggedIn && 'Is Logged In'}</p> */}
 
     <LoginStatus />
+
+
+    <ProductList />
     </React.Fragment>
   )
 }
