@@ -8,8 +8,8 @@
 //     </>;
 // }
 
-export function UserName({userName, className, bgColor}) {
-
+export function UserName(props) {
+    const {userName, className, bgColor} = props;
     return <>
     {/* <h3 style="background-color: orange;">{userName + ' Verified'}</h3> */}
     <h3 style={{

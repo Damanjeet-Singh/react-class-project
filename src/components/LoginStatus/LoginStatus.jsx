@@ -14,6 +14,7 @@ export function LoginStatus() {
     const isLoggedIn = true;
 
     return <>
-    { isLoggedIn ?  <p>Is Logged-in</p> : <h1>Is Logged-out</h1>}
+    {/* { isLoggedIn ?  <p>Is Logged-in</p> : <h1>Is Logged-out</h1>} */}
+    { isLoggedIn &&  <p>Is Logged-in</p>}
     </>
 }
